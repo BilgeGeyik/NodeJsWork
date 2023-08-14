@@ -5,15 +5,15 @@ Hepimizin Matematik derslerinden bildiği üzere Dairenin Alanı = π x r2 şekl
   <summary>Cevabı</summary>
 
 ### Code
-const argument = process.argv.slice(2);
+    const argument = process.argv.slice(2);
 
-function showCircleArea(radis)
-{
-    let circleArea = Math.PI * radis *radis;
+    function showCircleArea(radis)
+    {
+        let circleArea = Math.PI * radis *radis;
 
-    console.log(`Yarıçapı ${radis} olan dairenin alanı: ${circleArea}.`);
-}
+        console.log(`Yarıçapı ${radis} olan dairenin alanı: ${circleArea}.`);
+    }
 
-showCircleArea(argument[0]*1);
+    showCircleArea(argument[0]*1);
 
 </details>
